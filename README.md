@@ -2,11 +2,16 @@
 
 ### Image Recognition with Fashion MNIST dataset
 
+#### Background:
+
+Fashion e-commerce has grown to lucrative business, driven by the accessibility of internet into the global market, connecting wholesalers and consumers via browser. Combined with search engines and mobile devices, e-commerce platform can drives the sales further by allowing consumers to search for products by uploading images of the desired items, taken from their smart phones. Thus, a model to recognise images of clothing would be useful for ecommerce to deliver their service to consumers better to drive sales.
+
+#### Dataset:
 The Fashion MNIST serves as a replacement for the MNIST dataset as benchmark for machine learning algorithms. It contains the similar 28x28 grayscale images associated with 10 classes of objects. 
 
 #### Task: 
 
-Use Convolutional Neural Network (CNN) to solve image recognition problems
+To build a Convolutional Neural Network (CNN) to classify 10 categories of fashion items from their images
 
 #### Results & Analysis
 Model achieves 80.73% on unseen test data
@@ -50,3 +55,5 @@ Based on each f1 score, the weighted average of the precision and recall for
 + the `Bag` is 93%
 + the `Ankle Boot` is 91%
 
+#### Future Works:
++ Model can be trained with more specific subclasses of each categorized items for more specific fashion items to be displayed to the consumers.
